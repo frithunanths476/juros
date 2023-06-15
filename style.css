@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main .textos{
+    text-align: center;
+    margin-top: 100px;
+}
+
+main h1{
+    font-size: 120px;
+}
+
+main p{
+    font-size: 40px;
+}
+
+main .but{
+    text-align: center;
+}
+
+.but button{
+    font-family: 'League Spartan', sans-serif;
+    margin: 15px;
+    font-size: 25px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #4F3FD2;
+    border-radius: 15px;
+    border: none;
+    transition: 1s;
+
+}
+
+.but button:hover{
+    transform: scale(1.1);
+}
+
+.but .but1{
+    background-color: #63E3A0 !important;
+}
+
+body{
+    background-color: #100C2A;
+}
+footer{
+    background-image:url(image\ 4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 30vh;
+}
+
+.txt{
+    font-family: 'League Spartan', sans-serif;
+    color: #ffffff;
+}
+.putz{
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.putz input{
+    padding: 15px;
+    border-radius: 10px;
+    width: 270px;
+    margin-left: 40px;
+}
+
+#total{
+    align-items: center;
+    text-align: center;
+}
+
+.bobao{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.bobao span{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 100%;
+    margin-top: 40px;
+}

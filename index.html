@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="image 3.png" alt="">
+    </header>
+
+    <main>
+        <div class="textos">
+            <h1 class="txt">Calculadora de Juros</h1>
+            <p class="txt">Selecione o tipo de Juros que deseja calcular:</p>
+        </div>
+
+        <div class="putz">
+            <input id="value" type="number">
+            <input id="taxa" type="number">
+            <input id="tempo" type="number">
+
+
+        </div>
+        <div class="but">
+            <button id="calculat" class="but1">Juros Simples</button>
+            <button id="calculate"+ >Juros Composto</button>
+        </div>
+
+        <div class="bobao">
+            <span id="total">
+            </span>
+        </div>
+
+    </main>
+    <footer></footer>
+<script>
+    document.getElementById('calculate').addEventListener('click', function(){
+    const value = document.getElementById('value').value
+    const taxa = (document.getElementById('taxa').value) / 100
+    const tempo = document.getElementById('tempo').value
+
+    const total = value * (1 + taxa)**tempo
+
+    document.getElementById('total').innerHTML = ('R$' + total.toFixed(2))
+})
+
+document.getElementById('calculat').addEventListener('click', function(){
+    const value = document.getElementById('value').value
+    const taxa = (document.getElementById('taxa').value) / 100
+    const tempo = document.getElementById('tempo').value
+
+    const total = parseFloat(value*taxa*tempo) + parseFloat(value)
+
+    document.getElementById('total').innerHTML = ('R$' + (total).toFixed(2))
+})
+</script>
+</body>
+</html>
