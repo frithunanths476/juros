@@ -2,18 +2,23 @@
     margin: 0;
     padding: 0;
 }
+header img{
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
 
 main .textos{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 main h1{
-    font-size: 120px;
+    font-size: 80px;
 }
 
 main p{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 main .but{
@@ -23,8 +28,8 @@ main .but{
 .but button{
     font-family: 'League Spartan', sans-serif;
     margin: 15px;
-    font-size: 25px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 10px;
     color: rgb(255, 255, 255);
     background-color: #4F3FD2;
     border-radius: 15px;
@@ -49,7 +54,8 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
     width: 97vw;
-    height: 30vh;
+    height: 40vh;
+    margin-top: -110px;
 }
 
 .txt{
@@ -62,10 +68,10 @@ footer{
     margin-bottom: 20px;
 }
 .putz input{
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    width: 270px;
-    margin-left: 40px;
+    width: 220px;
+    margin-left: 20px;
 }
 
 #total{
@@ -86,4 +92,11 @@ footer{
     padding: 20px;
     border-radius: 100%;
     margin-top: 40px;
+}
+#valores{
+    font-family: 'League Spartan', sans-serif;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
 }
